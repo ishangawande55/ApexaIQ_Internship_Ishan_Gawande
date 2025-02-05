@@ -1,0 +1,30 @@
+Problem
+You are given an array A  of length N. A subarray is called special if the XOR and Sum of the subarray are the same. Find the number of special subarrays of A.
+
+Input Format
+
+The first line contains an integer T
+, which denotes the number of test cases.
+The first line of each test case contains an integer N
+, which denotes the length of array A.
+The second line of each test case contains N
+ space-separated integers, denoting elements of array A.
+ 
+Output Format
+
+For each test case, print the number of special subarrays of A.
+
+Constraints
+1<= T <= 10
+1<= N <= 10^5
+1<= Ai <= 10^9
+
+Sample Input
+2
+3
+2 1 6
+2   
+4 5
+Sample Output
+5
+2
